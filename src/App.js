@@ -151,9 +151,6 @@ class App extends Component {
         {playQuestion}
         {playSound}
         {playGameOver}
-        <div className="container font-weight-bold text-right">
-          <h5>{this.state.countCorrectAnswer} : {this.state.countWrongAnswer}</h5>
-        </div>
         <div className="container2">
           <img
             className='image-btn'
@@ -170,6 +167,9 @@ class App extends Component {
             onClick={() => this.repeatAnswer()}
             src={require('./assets/arrows/speaker1.png')}
             alt="ImageRepeat" />
+        </div>
+        <div className="container font-weight-bold text-right">
+          <h5>{this.state.countCorrectAnswer} : {this.state.countWrongAnswer}</h5>
         </div>
         <div className="container2">
           <img
