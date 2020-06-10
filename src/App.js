@@ -168,7 +168,7 @@ class App extends Component {
             src={require('./assets/arrows/speaker1.png')}
             alt="ImageRepeat" />
         </div>
-        <div className="container font-weight-bold text-right">
+        <div className="container3">
           <h5>{this.state.countCorrectAnswer} : {this.state.countWrongAnswer}</h5>
         </div>
         <div className="container2">
